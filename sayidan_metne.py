@@ -2,7 +2,7 @@
 __author__ = "OguzBey"
 
 
-class RakamdanMetne(object):
+class SayidanMetne(object):
 
 	def __init__(self):
 		self._birler =  {1:"Bir", 2:"İki", 3:"Üç", 4:"Dört", 5:"Beş", 6:"Altı",
@@ -86,4 +86,4 @@ class RakamdanMetne(object):
 
 if __name__ == '__main__':
 	girilen_sayi = int(input("Sayı giriniz: "))
-	RakamdanMetne().cevir(girilen_sayi)
+	SayidanMetne().cevir(girilen_sayi)
